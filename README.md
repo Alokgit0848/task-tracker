@@ -14,11 +14,20 @@ The **Task Tracker Application** is a simple and efficient tool for managing tas
 
 ---
 
+##Screenshots
+
+![tt](https://github.com/user-attachments/assets/0c1edef0-1a70-4983-8ff8-6cbdb64023c9)
+
+
+
+![tt1](https://github.com/user-attachments/assets/8d332445-7318-4932-a3bb-ac58d192c794)
+
+
 ## Project Requirements
 
-### 1. **User Stories (Gherkin Syntax)**  
+### 1. **User Stories**  
 #### Create a New Task
-```gherkin
+
 Scenario: User creates a new task
   Given the user is on the task tracker homepage
   When the user enters a task description and deadline
@@ -38,11 +47,4 @@ Scenario: User deletes a task
   When the user clicks the "Delete" button for the task
   Then the task is removed from the list
 
-##Screenshots
-
-![tt](https://github.com/user-attachments/assets/0c1edef0-1a70-4983-8ff8-6cbdb64023c9)
-
-
-
-![tt1](https://github.com/user-attachments/assets/8d332445-7318-4932-a3bb-ac58d192c794)
 
